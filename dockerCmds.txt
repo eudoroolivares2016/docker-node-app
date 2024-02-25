@@ -1,0 +1,7 @@
+# Build out the docker image and include the `tag`
+docker build -t docker-node-app .
+
+# Run the docker container
+docker run -p 3000:3000 docker-node-app
+
+
