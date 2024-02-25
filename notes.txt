@@ -1,0 +1,9 @@
+Control: node18:16 fails with or without linux direct installation call
+the binaries do not install if that is the case. This is using `npm` 9.5.1
+
+
+
+The binanaries install if the node version is node:18:19 images which is the same
+uses a later version of `npm` vresion 10.2.4
+
+in the sharp documentation on https://sharp.pixelplumbing.com/install#npm-v10 says that npm should be at least version 10
